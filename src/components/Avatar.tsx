@@ -2,7 +2,7 @@ import {ReactNode, useContext} from "react";
 import {Twittercontext} from "../utils/context.js";
 
 
-const Avatar = ({size}:{size:string|null|undefined}):ReactNode => {
+const Avatar = ({size}:{size:string|undefined}):ReactNode => {
     const {user, changeAvatar, changeName} = useContext(Twittercontext);
 
     return (
